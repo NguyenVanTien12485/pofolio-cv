@@ -6,7 +6,7 @@
         class="max-w-[1520px] h-full px-[40px] mx-auto flex flex-row justify-between items-center border-x border-solid border-[#CCCCCC]">
         <NuxtLink :to="{ path: '/', hash: '#introduce' }">1. Binh Le</NuxtLink>
         <NuxtLink :to="{ path: '/', hash: '#resume' }">2. Resum</NuxtLink>
-        <NuxtLink>3. Project</NuxtLink>
+        <NuxtLink :to="{path: '/', hash: '#portfolio'}">3. Project</NuxtLink>
       </header>
     </section>
     <!-- container -->
