@@ -4,9 +4,9 @@ const activeId = ref(1)
 const instance = getCurrentInstance();
 // Data to render links, in real life you may pass them as prop, use inject() etc...
 const links = ref([
-   { id: 1, href: 'introduce', label: '1. Binh Le' },
-   { id: 2, href: 'resume', label: '2. Resum' },
-   { id:3, href: 'portfolio', label: '3. Project' },
+   { id: 1, href: 'introduce', label: '1. BINH LE' },
+   { id: 2, href: 'resume', label: '2. RESUME CV' },
+   { id:3, href: 'portfolio', label: '3. PORTFOLIO 2023' },
 ])
 
 onMounted(() => {
