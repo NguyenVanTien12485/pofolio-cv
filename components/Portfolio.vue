@@ -69,7 +69,6 @@
         </button>
       </div>
       <ol class="flex flex-row items-center justify-center w-[720px]">
-        {{ activeId }}
         <li v-for=" slide in listPortfolio.length" :key="slide" :class="activeId === slide ? '!bg-[#171b1c]' : ''" class="inline-block w-3 h-3 bg-[#D6D9DB] mx-[6px] rounded-[50px]"  @click="handleClick(slide, i)">
         </li>
       </ol>
