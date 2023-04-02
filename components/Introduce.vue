@@ -22,14 +22,14 @@
           <button class="flex flex-row justify-center items-center px-6 py-3 rounded-xl bg-[#171B1C]">
             <span class="text-[#FFFFFF]">Tìm hiểu thêm</span>
             <div class="ml-2">
-              <img src="../assets/icons/arrow-right.svg" alt="">
+              <img src="/icons/arrow-right.svg" alt="">
             </div>
           </button>
         </div>
 
         <!-- image -->
         <div class="border-l-[1px] border-solid border-[#CCCCCC] relative wrap-image">
-          <img src="../assets/images/binh-le-image.png" alt="" class="w-full h-full block object-fill">
+          <img src="/images/binh-le-image.png" alt="" class="w-full h-full block object-fill">
         </div>
       </div>
     </div>
